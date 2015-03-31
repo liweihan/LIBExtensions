@@ -20,9 +20,8 @@
 + (UIColor *)li_unreadBackground;
 + (UIColor *)li_facebookBlue;
 + (UIColor *)li_twitterBlue;
-+ (UIColor *)li_mainBackgroundGradientWithFrame:(CGRect)frame;
-
-+ (UIColor *)lif_featureCoverGradientWithFrame:(CGRect)frame;
+//+ (UIColor *)li_mainBackgroundGradientWithFrame:(CGRect)frame;
+//+ (UIColor *)lif_featureCoverGradientWithFrame:(CGRect)frame;
 
 + (UIColor *)li_gradient:(double)percent top:(double)topX bottom:(double)bottomX init:(UIColor*)init goal:(UIColor*)goal;
 

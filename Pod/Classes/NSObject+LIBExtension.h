@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject(LIBExtension)
-- (void) performSelector: (SEL) selector
-    withBlockingCallback: (dispatch_block_t) block;
+//- (void) performSelector: (SEL) selector
+//    withBlockingCallback: (dispatch_block_t) block;
 @end

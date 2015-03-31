@@ -14,16 +14,16 @@
 static const void* kHasBegunUpdatesKey = &kHasBegunUpdatesKey;
 static const void* kBatchUpdateBlocksKey = &kBatchUpdateBlocksKey;
 
-static void PBSwizzleMethod(Class c, SEL original, SEL alternate) {
-	Method origMethod = class_getInstanceMethod(c, original);
-	Method newMethod = class_getInstanceMethod(c, alternate);
-	
-	if(class_addMethod(c, original, method_getImplementation(newMethod), method_getTypeEncoding(newMethod))) {
-		class_replaceMethod(c, alternate, method_getImplementation(origMethod), method_getTypeEncoding(origMethod));
-	} else {
-		method_exchangeImplementations(origMethod, newMethod);
-	}
-}
+//static void PBSwizzleMethod(Class c, SEL original, SEL alternate) {
+//	Method origMethod = class_getInstanceMethod(c, original);
+//	Method newMethod = class_getInstanceMethod(c, alternate);
+//	
+//	if(class_addMethod(c, original, method_getImplementation(newMethod), method_getTypeEncoding(newMethod))) {
+//		class_replaceMethod(c, alternate, method_getImplementation(origMethod), method_getTypeEncoding(origMethod));
+//	} else {
+//		method_exchangeImplementations(origMethod, newMethod);
+//	}
+//}
 
 @implementation UICollectionView (NSFetchedResultsController)
 
@@ -167,7 +167,7 @@ static void PBSwizzleMethod(Class c, SEL original, SEL alternate) {
 	NSArray* blocks = [self pb_batchUpdateBlocks];
 	
 	// A workaround for a weird bug when UICollectionView is not on screen
-	if(self.window && NO)
+	if(self.window )//&& NO)
 	{
 		[self performBatchUpdates:^{
 			for(void(^block)(void) in blocks) {

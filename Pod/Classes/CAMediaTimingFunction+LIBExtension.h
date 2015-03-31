@@ -25,6 +25,6 @@ typedef NS_ENUM(NSInteger, LIBTimingFuctionType) {
 + (CAMediaTimingFunction *)li_easeOut;
 
 + (CAMediaTimingFunction *)li_timingFunctionWithType: (LIBTimingFuctionType) type;
-- (CGFloat)li_getControlPointAtIndex:(CGFloat) index;
+//- (CGFloat)li_getControlPointAtIndex:(CGFloat) index;
 @end
 
