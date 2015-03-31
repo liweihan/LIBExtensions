@@ -1,14 +1,15 @@
 //
-//  NSObject+Extension.h
-//  LIBApp
+//  NSObject+LIBExtension
 //
-//  Created by WEIHAN LI on 7/27/14.
-//  Copyright (c) 2014 liweihan. All rights reserved.
 //
+
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject(LIBExtension)
-//- (void) performSelector: (SEL) selector
-//    withBlockingCallback: (dispatch_block_t) block;
+@interface NSObject (LIBExtension)
+
+- (void)li_addObserverForName:(NSString *)name object:(id)obj queue:(NSOperationQueue *)queue usingBlock:(void (^)(NSNotification *note))block;
+- (void)li_addObserverForName:(NSString *)name usingBlock:(void (^)(NSNotification *note))block;
+
+
 @end
