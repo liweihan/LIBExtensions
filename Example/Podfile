@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'LIBExtensions', :exclusive => true do
+  pod "LIBExtensions", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "LIBExtensions", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
