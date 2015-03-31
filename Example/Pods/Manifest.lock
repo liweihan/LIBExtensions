@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (0.3.2)
+  - LIBExtensions (0.1.0)
+  - Specta (0.4.0)
+
+DEPENDENCIES:
+  - Expecta
+  - LIBExtensions (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  LIBExtensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 8c507baf13211207b1e9d0a741480600e6b4ed15
+  LIBExtensions: 7f2139ad7a67370b4aa151a6069daf8e9845c6d6
+  Specta: a353759f073ffcc0a365b782fe4aaeac064c03c6
+
+COCOAPODS: 0.36.0
