@@ -16,7 +16,7 @@
     [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor li_mainForeground]};
     
     [[UITabBar appearance] setBarTintColor:[UIColor li_mainBackgroundDark]];
-    [[UITabBar appearance] setSelectedImageTintColor:[UIColor whiteColor]];
+//    [[UITabBar appearance] setSelectedImageTintColor:[UIColor whiteColor]];
     [[UITabBar appearance] setTintColor:[UIColor li_mainForeground]];
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];

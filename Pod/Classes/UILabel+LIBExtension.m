@@ -7,7 +7,7 @@
 //
 
 #import "UILabel+LIBExtension.h"
-
+#import "UIColor+LIBExtension.h"
 @implementation UILabel(LIBExtension)
 
 -(void) li_setupDefaultLabelWithFontSize:(NSInteger) size{
