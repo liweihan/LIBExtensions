@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00937AA67A7FC61830E817E2 /* LIBAppSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BA664F553A5A3276A22A1D /* LIBAppSetting.h */; };
 		00A5D0809E9337D4029B0223 /* UIView+LIBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B006096AE45D40A7439C4FD9 /* UIView+LIBExtension.m */; };
 		012E6D25083A8DDFED2FD7C4 /* LIBVariables.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FB1046A6242980DDD33A59 /* LIBVariables.h */; };
 		01341F45D11276A755D030E1 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE4451AEAAFF13669DC5E10 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -84,7 +83,6 @@
 		2EEE1BD07B10350EA1774476 /* LIBTouchDownGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6E0A0B0A55C2A16E4FA39C /* LIBTouchDownGestureRecognizer.h */; };
 		2F05F8F828F030859C65F400 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FE01E3E59C0C282AC529F06D /* UIImageView+HighlightedWebCache.h */; };
 		313B7F2648DCA865A37DEB83 /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8F1D3670202F20E1240E5B /* SPTExample.h */; };
-		34ADD3CE810611EA9D9756D5 /* LIBAppSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BA664F553A5A3276A22A1D /* LIBAppSetting.h */; };
 		35217CA9C4C2332A008396BF /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = F6188A56AD7C0574F1DB0000 /* SpectaDSL.h */; };
 		35FF40A5447B3E87A9218FCD /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAC069A94634A06AB8BFF6B /* NSLayoutConstraint+PureLayout.m */; };
 		36E737CA754C149C0AB26777 /* Pods-LIBExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 535530D7A9B08683790DC734 /* Pods-LIBExtensions-dummy.m */; };
@@ -108,7 +106,6 @@
 		48547B4B34A8EAB7C75C00F6 /* UIView+LIBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD2AD9CE5330E505A39D5F3 /* UIView+LIBExtension.h */; };
 		487FF5FFBC30541962E0A2D0 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 501D1157E1D53DFCBDCAF73F /* NSArray+PureLayout.m */; };
 		48C3DFDDD2D33E5ACDBEAB8B /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2A83E8CD8D285FC19BEC39 /* EXPDoubleTuple.h */; };
-		492FCF6749E09F0135B7EA38 /* LIBAppSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C60A78EBA8E637FEA57C8EE8 /* LIBAppSetting.m */; };
 		4A0B25792B1ED329FB68DD3C /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 092E0AC0BBD3DC59DC688FCB /* UIImage+GIF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4A5646A930014F21F16E7186 /* LIBCircularImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 259A09E368A1963352247A8F /* LIBCircularImageView.h */; };
 		4C1675429CBCC617BC560950 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ED7CB4D25AADABFC161F5E /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -210,6 +207,7 @@
 		A9C64A98F0D9EC3B26DE1369 /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04068E14C4B7C46023DBBCB9 /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AD1ABBB214506C79B258F6FF /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 70591A2CE4A6D6A58AA45204 /* ALView+PureLayout.h */; };
 		ADBB320F50E83095565F5A48 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2ED0F04AEC14242A901FE /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ADC5C7F51ACB78D400023DAB /* LIBExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC5C7F41ACB78D400023DAB /* LIBExtensions.h */; };
 		ADF04CC930E5702AF38BBF37 /* NSObject+LIBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 68965B3721DECAF36B67F50C /* NSObject+LIBExtension.h */; };
 		B508608631C441DCF18E06E8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A51441322EBAFFE676363F0 /* ImageIO.framework */; };
 		B5ABC52128DD4BB6C88489B5 /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ABCDC532E16576C7791190 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -217,7 +215,6 @@
 		B891E134DB59005FFAF2A6D0 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FF94C1CC2718AA7FDBCBF9 /* UIButton+WebCache.h */; };
 		BAB5B86DBB398717C7688442 /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = B12B980682D2C2906888022E /* EXPMatchers+beginWith.h */; };
 		BB0944BB8770B74828843E6C /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = D3771751184DA6D70B597328 /* NSString+MD5.h */; };
-		BDCCCB26F00B9438ACB942EF /* LIBAppSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C60A78EBA8E637FEA57C8EE8 /* LIBAppSetting.m */; };
 		BEA4EB3460D868556D709321 /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 3614C49AEE1CEC69BEB10BC6 /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C08A7D9CBAA1D42A662EF5C8 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A70988D0527C971C27BFC7A /* EXPMatchers+beLessThan.h */; };
 		C17F282678E1515D744EF23E /* UIImageView+LIBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280C909655B03E5C2B3ABD5 /* UIImageView+LIBExtension.m */; };
@@ -469,7 +466,6 @@
 		5D8AE52061E9D651C90E9116 /* LIBSlideViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LIBSlideViewControllerDelegate.h; sourceTree = "<group>"; };
 		5E3DB0042225030A5A18F42F /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
 		60A3775E364B4861F2B9570C /* libPods-LIBExtensions-SDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LIBExtensions-SDWebImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		60BA664F553A5A3276A22A1D /* LIBAppSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LIBAppSetting.h; sourceTree = "<group>"; };
 		61E4AB66331F4D41ABAF7F88 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		649CFD070AD04E3663B87E1A /* Pods-LIBExtensions-LIBExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LIBExtensions-LIBExtensions.xcconfig"; sourceTree = "<group>"; };
 		651C03FCE26FE2C78C462827 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
@@ -525,6 +521,7 @@
 		A9ED7CB4D25AADABFC161F5E /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		AA4A7C31B05D3252C8524794 /* LIBCircularImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LIBCircularImageView.m; sourceTree = "<group>"; };
 		AD6C662355E0A06C383E9F27 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
+		ADC5C7F41ACB78D400023DAB /* LIBExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIBExtensions.h; sourceTree = "<group>"; };
 		AE7E694F8E6FEB867786109A /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
 		AEC39479D55E5E5CD71C94D8 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
 		AEDFC7BB23D6ED540B1FD658 /* UIImage+LIBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+LIBExtension.h"; sourceTree = "<group>"; };
@@ -549,7 +546,6 @@
 		C46E00E5B79DF6062F1CD48F /* Pods-Tests-Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-Expecta-prefix.pch"; sourceTree = "<group>"; };
 		C5A223EA876373097EC62BB1 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		C5C2F4DE87F78B4AE1740926 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
-		C60A78EBA8E637FEA57C8EE8 /* LIBAppSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LIBAppSetting.m; sourceTree = "<group>"; };
 		C64409CAC052F753661FE069 /* Pods-Tests-Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-Expecta.xcconfig"; sourceTree = "<group>"; };
 		C750D11E3455BC23E494C0DD /* Pods-LIBExtensions-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LIBExtensions-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7B07BF63F69502FE6A5990F /* libPods-LIBExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LIBExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -802,10 +798,11 @@
 		5AF8263D2199EC1CCB6CE2FF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				ADC5C7F41ACB78D400023DAB /* LIBExtensions.h */,
+				E3FB1046A6242980DDD33A59 /* LIBVariables.h */,
+				F7BB00182B68E0D81405E5F3 /* LIBVariables.m */,
 				293DDDF64FCD01DFFFB328EF /* CAMediaTimingFunction+LIBExtension.h */,
 				D90A3680BA29F9D0813FAB42 /* CAMediaTimingFunction+LIBExtension.m */,
-				60BA664F553A5A3276A22A1D /* LIBAppSetting.h */,
-				C60A78EBA8E637FEA57C8EE8 /* LIBAppSetting.m */,
 				259A09E368A1963352247A8F /* LIBCircularImageView.h */,
 				AA4A7C31B05D3252C8524794 /* LIBCircularImageView.m */,
 				474E248198B10F837EFB1AA7 /* LIBFirebase.h */,
@@ -817,8 +814,6 @@
 				2335A7C6E38A42A2416D347E /* LIBStatusBarView.m */,
 				9C6E0A0B0A55C2A16E4FA39C /* LIBTouchDownGestureRecognizer.h */,
 				0AA55F29F23901F28EF4BC40 /* LIBTouchDownGestureRecognizer.m */,
-				E3FB1046A6242980DDD33A59 /* LIBVariables.h */,
-				F7BB00182B68E0D81405E5F3 /* LIBVariables.m */,
 				68965B3721DECAF36B67F50C /* NSObject+LIBExtension.h */,
 				7C2F0E9B17F4C2EEF44AAE4B /* NSObject+LIBExtension.m */,
 				D3771751184DA6D70B597328 /* NSString+MD5.h */,
@@ -1172,7 +1167,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DB83F055EC2CE8E9A4101E6 /* CAMediaTimingFunction+LIBExtension.h in Headers */,
-				00937AA67A7FC61830E817E2 /* LIBAppSetting.h in Headers */,
 				4A5646A930014F21F16E7186 /* LIBCircularImageView.h in Headers */,
 				C83A38EC5EB2664E97135D43 /* LIBFirebase.h in Headers */,
 				3F61DF6E1D532C3C409838D1 /* LIBRoundLayer.h in Headers */,
@@ -1184,6 +1178,7 @@
 				BB0944BB8770B74828843E6C /* NSString+MD5.h in Headers */,
 				EC8627478B7BF43FACB100F2 /* UICollectionView+NSFetchedResultsController.h in Headers */,
 				DE0D11D0476F52E58F7839F4 /* UIColor+LIBExtension.h in Headers */,
+				ADC5C7F51ACB78D400023DAB /* LIBExtensions.h in Headers */,
 				F46D059CF13ED88D8C9FB8C9 /* UIImage+LIBExtension.h in Headers */,
 				699487579080A05585E69069 /* UIImageView+LIBExtension.h in Headers */,
 				7466228454970D9389B27A14 /* UILabel+LIBExtension.h in Headers */,
@@ -1300,7 +1295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA50823584185A285A034131 /* CAMediaTimingFunction+LIBExtension.h in Headers */,
-				34ADD3CE810611EA9D9756D5 /* LIBAppSetting.h in Headers */,
 				FBCBB1ADEE224D8A4AB21954 /* LIBCircularImageView.h in Headers */,
 				DE194EA17473D75775C5A267 /* LIBFirebase.h in Headers */,
 				01379ACD7FF00A52193BAED4 /* LIBRoundLayer.h in Headers */,
@@ -1599,7 +1593,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				287BF5B3784088BF7A5EFFD6 /* CAMediaTimingFunction+LIBExtension.m in Sources */,
-				492FCF6749E09F0135B7EA38 /* LIBAppSetting.m in Sources */,
 				E9A6CA0FA4B6CA8ABC6F4CFB /* LIBCircularImageView.m in Sources */,
 				2AEB32E843CF067A9F66917D /* LIBFirebase.m in Sources */,
 				A4CC9D690F12AF36DCB32EB0 /* LIBRoundLayer.m in Sources */,
@@ -1751,7 +1744,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9A07E188B4427AC5099A574 /* CAMediaTimingFunction+LIBExtension.m in Sources */,
-				BDCCCB26F00B9438ACB942EF /* LIBAppSetting.m in Sources */,
 				EF52FE6BA15E20F7D5A38DDD /* LIBCircularImageView.m in Sources */,
 				0218871849774B2A4BF52017 /* LIBFirebase.m in Sources */,
 				217E878C4593E4B1E704E989 /* LIBRoundLayer.m in Sources */,

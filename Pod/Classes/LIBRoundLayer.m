@@ -44,8 +44,8 @@
                     shadowColor:(CGColorRef)shadowColor
                          offset:(CGSize)offset
                      blurRadius:(CGFloat)blurRadius {
-    CGContextSaveGState(context);
     
+    CGContextSaveGState(context);
     CGContextAddPath(context, path);
     CGContextClip(context);
     
