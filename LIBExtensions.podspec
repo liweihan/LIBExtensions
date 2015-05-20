@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LIBExtensions"
-  s.version          = "0.2.1"
+  s.version          = "0.2.2"
   s.summary          = "A comment set of extensions/categories that I use for my projects"
 
   s.homepage         = "https://github.com/liweihan/LIBExtensions"

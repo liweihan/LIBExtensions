@@ -206,8 +206,8 @@
 		A9A07E188B4427AC5099A574 /* CAMediaTimingFunction+LIBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A3680BA29F9D0813FAB42 /* CAMediaTimingFunction+LIBExtension.m */; };
 		A9C64A98F0D9EC3B26DE1369 /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04068E14C4B7C46023DBBCB9 /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AD1ABBB214506C79B258F6FF /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 70591A2CE4A6D6A58AA45204 /* ALView+PureLayout.h */; };
+		ADAE5EF21AFC525B0027D428 /* LIBExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAE5EF11AFC525B0027D428 /* LIBExtensions.h */; };
 		ADBB320F50E83095565F5A48 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2ED0F04AEC14242A901FE /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		ADC5C7F51ACB78D400023DAB /* LIBExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC5C7F41ACB78D400023DAB /* LIBExtensions.h */; };
 		ADF04CC930E5702AF38BBF37 /* NSObject+LIBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 68965B3721DECAF36B67F50C /* NSObject+LIBExtension.h */; };
 		B508608631C441DCF18E06E8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A51441322EBAFFE676363F0 /* ImageIO.framework */; };
 		B5ABC52128DD4BB6C88489B5 /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ABCDC532E16576C7791190 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -521,7 +521,7 @@
 		A9ED7CB4D25AADABFC161F5E /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		AA4A7C31B05D3252C8524794 /* LIBCircularImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LIBCircularImageView.m; sourceTree = "<group>"; };
 		AD6C662355E0A06C383E9F27 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
-		ADC5C7F41ACB78D400023DAB /* LIBExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIBExtensions.h; sourceTree = "<group>"; };
+		ADAE5EF11AFC525B0027D428 /* LIBExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIBExtensions.h; sourceTree = "<group>"; };
 		AE7E694F8E6FEB867786109A /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
 		AEC39479D55E5E5CD71C94D8 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
 		AEDFC7BB23D6ED540B1FD658 /* UIImage+LIBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+LIBExtension.h"; sourceTree = "<group>"; };
@@ -798,7 +798,7 @@
 		5AF8263D2199EC1CCB6CE2FF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				ADC5C7F41ACB78D400023DAB /* LIBExtensions.h */,
+				ADAE5EF11AFC525B0027D428 /* LIBExtensions.h */,
 				E3FB1046A6242980DDD33A59 /* LIBVariables.h */,
 				F7BB00182B68E0D81405E5F3 /* LIBVariables.m */,
 				293DDDF64FCD01DFFFB328EF /* CAMediaTimingFunction+LIBExtension.h */,
@@ -1170,6 +1170,7 @@
 				4A5646A930014F21F16E7186 /* LIBCircularImageView.h in Headers */,
 				C83A38EC5EB2664E97135D43 /* LIBFirebase.h in Headers */,
 				3F61DF6E1D532C3C409838D1 /* LIBRoundLayer.h in Headers */,
+				ADAE5EF21AFC525B0027D428 /* LIBExtensions.h in Headers */,
 				47651DB2006A44866BCB927A /* LIBSlideViewControllerDelegate.h in Headers */,
 				94100E043E5A64D85154EF7D /* LIBStatusBarView.h in Headers */,
 				2EEE1BD07B10350EA1774476 /* LIBTouchDownGestureRecognizer.h in Headers */,
@@ -1178,7 +1179,6 @@
 				BB0944BB8770B74828843E6C /* NSString+MD5.h in Headers */,
 				EC8627478B7BF43FACB100F2 /* UICollectionView+NSFetchedResultsController.h in Headers */,
 				DE0D11D0476F52E58F7839F4 /* UIColor+LIBExtension.h in Headers */,
-				ADC5C7F51ACB78D400023DAB /* LIBExtensions.h in Headers */,
 				F46D059CF13ED88D8C9FB8C9 /* UIImage+LIBExtension.h in Headers */,
 				699487579080A05585E69069 /* UIImageView+LIBExtension.h in Headers */,
 				7466228454970D9389B27A14 /* UILabel+LIBExtension.h in Headers */,
