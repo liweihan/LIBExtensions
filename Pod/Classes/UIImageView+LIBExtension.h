@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <PromiseKit.h>
 
 @interface UIImageView (LIBExtension)
 
-- (void)li_setImageWithURL:(NSString *)url;
+- (void)li_setImageWithURL:(NSURL *)url;
+- (PMKPromise *)li_promiseImageWithURL:(NSURL *)url;
 - (void)li_setTintColor:(UIColor *) color;
 @end

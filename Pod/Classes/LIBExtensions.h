@@ -19,8 +19,11 @@
 #import "CAMediaTimingFunction+LIBExtension.h"
 
 #import "UIScrollView+LIBExtension.h"
-#import "LIBVariables.h"
-
+#import "LIBDeviceVariables.h"
+#import "NSIndexSet+LIBExtension.h"
+#import "NSTimer+Block.h"
+#import "UICollectionView+LIBExtension.h"
+#import "PHAsset+LIBExtension.h"
 
 #define SHOULD_ON_BACKGROUND_THREAD NSAssert(![NSThread isMainThread], @"Do not run on MAIN thread");
 
@@ -36,6 +39,9 @@
 #define LILog( s, ... )
 #endif
 
+#define DEGREES_TO_RADIANS(angle) ((angle) / 180.0 * M_PI)
+
+#define MUST_OVERRIDE() @throw [NSException exceptionWithName:NSInvalidArgumentException reason:[NSString stringWithFormat:@"%s must be overridden in a subclass/category", __PRETTY_FUNCTION__] userInfo:nil]
 
 
 #pragma clang diagnostic push
@@ -43,3 +49,5 @@
 #define UA_runOnMainThread if (![NSThread isMainThread]) { dispatch_sync(dispatch_get_main_queue(), ^{ [self performSelector:_cmd]; }); return; };
 #pragma clang diagnostic pop
 
+
+#define DEFINE_KEY(keyName) NSString *const keyName = @#keyName

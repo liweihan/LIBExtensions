@@ -1,13 +1,82 @@
 PODS:
-  - Expecta (0.3.2)
-  - LIBExtensions (0.1.0):
+  - Expecta (1.0.0)
+  - LIBExtensions (0.2.2):
+    - pop
+    - POP+MCAnimate
+    - PromiseKit (~> 1.5)
     - PureLayout
+    - ReflectableEnum
     - SDWebImage
-  - PureLayout (2.0.5)
+  - OMGHTTPURLRQ (2.1.3):
+    - OMGHTTPURLRQ/RQ (= 2.1.3)
+  - OMGHTTPURLRQ/FormURLEncode (2.1.3)
+  - OMGHTTPURLRQ/RQ (2.1.3):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (2.1.3)
+  - pop (1.0.7)
+  - POP+MCAnimate (2.0.1):
+    - pop (~> 1.0)
+    - POP+MCAnimate/Animations (= 2.0.1)
+    - POP+MCAnimate/Group (= 2.0.1)
+    - POP+MCAnimate/Internal (= 2.0.1)
+    - POP+MCAnimate/Shorthand (= 2.0.1)
+    - POP+MCAnimate/Velocity (= 2.0.1)
+  - POP+MCAnimate/Animations (2.0.1):
+    - pop (~> 1.0)
+    - POP+MCAnimate/Group
+    - POP+MCAnimate/Internal
+    - POP+MCAnimate/Shorthand
+    - POP+MCAnimate/Velocity
+  - POP+MCAnimate/Group (2.0.1):
+    - pop (~> 1.0)
+  - POP+MCAnimate/Internal (2.0.1):
+    - pop (~> 1.0)
+  - POP+MCAnimate/Shorthand (2.0.1):
+    - pop (~> 1.0)
+  - POP+MCAnimate/Velocity (2.0.1):
+    - pop (~> 1.0)
+    - POP+MCAnimate/Internal
+  - PromiseKit (1.5.3):
+    - PromiseKit/CALayer (= 1.5.3)
+    - PromiseKit/NSNotificationCenter (= 1.5.3)
+    - PromiseKit/NSURLConnection (= 1.5.3)
+    - PromiseKit/Pause (= 1.5.3)
+    - PromiseKit/UIActionSheet (= 1.5.3)
+    - PromiseKit/UIAlertView (= 1.5.3)
+    - PromiseKit/UIView (= 1.5.3)
+    - PromiseKit/UIViewController (= 1.5.3)
+    - PromiseKit/Until (= 1.5.3)
+    - PromiseKit/When (= 1.5.3)
+  - PromiseKit/CALayer (1.5.3):
+    - PromiseKit/Promise
+  - PromiseKit/NSNotificationCenter (1.5.3):
+    - PromiseKit/Promise
+  - PromiseKit/NSURLConnection (1.5.3):
+    - OMGHTTPURLRQ
+    - PromiseKit/Promise
+  - PromiseKit/Pause (1.5.3):
+    - PromiseKit/Promise
+  - PromiseKit/Promise (1.5.3)
+  - PromiseKit/UIActionSheet (1.5.3):
+    - PromiseKit/Promise
+  - PromiseKit/UIAlertView (1.5.3):
+    - PromiseKit/Promise
+  - PromiseKit/UIView (1.5.3):
+    - PromiseKit/Promise
+  - PromiseKit/UIViewController (1.5.3):
+    - PromiseKit/Promise
+  - PromiseKit/Until (1.5.3):
+    - PromiseKit/Promise
+    - PromiseKit/When
+  - PromiseKit/When (1.5.3):
+    - PromiseKit/Promise
+  - PureLayout (2.0.6)
+  - ReflectableEnum (0.1.1)
   - SDWebImage (3.7.2):
     - SDWebImage/Core (= 3.7.2)
   - SDWebImage/Core (3.7.2)
-  - Specta (0.4.0)
+  - Specta (1.0.2)
 
 DEPENDENCIES:
   - Expecta
@@ -16,13 +85,18 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   LIBExtensions:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Expecta: 8c507baf13211207b1e9d0a741480600e6b4ed15
-  LIBExtensions: 57bf17d2120df27bc86d9a0848ca18b5487c416c
-  PureLayout: a0fe75f1cf485801e7e00b723b8a3c32dca558e2
+  Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
+  LIBExtensions: b05508284911f96d00666f7caba68004ac7bb50e
+  OMGHTTPURLRQ: c4268dea4295b585d711055dbcd87bfa82badd5f
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  POP+MCAnimate: a99e209148c602512de487f1160a44bf78572024
+  PromiseKit: 7ecae7c190ab92ae00aae6ba7f88942107532b8f
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+  ReflectableEnum: bf9d36f8c35122242125140a22b8921d071989aa
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
-  Specta: a353759f073ffcc0a365b782fe4aaeac064c03c6
+  Specta: 9cec98310dca411f7c7ffd6943552b501622abfe
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.37.2

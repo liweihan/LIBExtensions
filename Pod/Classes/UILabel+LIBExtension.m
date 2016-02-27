@@ -22,7 +22,9 @@
     self.font = font;
     self.textColor = [UIColor li_mainForeground];
     self.textAlignment = NSTextAlignmentCenter;
-//    self.numberOfLines = 1;
+    self.userInteractionEnabled = NO;
+    self.numberOfLines = 1;
+    self.adjustsFontSizeToFitWidth = YES;
 
 }
 @end

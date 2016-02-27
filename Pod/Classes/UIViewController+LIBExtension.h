@@ -16,5 +16,8 @@
 + (instancetype) li_viewControllerWithStoryboard:(NSString *) name identifier:(NSString *) identifier;
 + (instancetype) li_viewControllerWithStoryboard:(NSString *) name identifier:(NSString *) identifier bundleName:(NSString *) bundleName;
 
+- (void)li_addChildController:(UIViewController *) childController;
+- (void)li_removeFromParentViewController;
 
+- (BOOL)li_isVisible;
 @end

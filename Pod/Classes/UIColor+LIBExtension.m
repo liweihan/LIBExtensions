@@ -17,7 +17,9 @@
 // ee6655 nice orange
 //88bbbb
 + (UIColor *)li_mainBackgroundDark{
-    return UIColorFromRGB(0x554d55);
+    static UIColor *color = nil;
+    if (!color) color = UIColorFromRGB(0x554d55);
+    return color;
 }
 //+ (UIColor *)li_mainBackgroundDarkBlue{
 //    return UIColorFromRGB(0x68a8a8);
@@ -33,23 +35,33 @@
 }
 //0xB9DAD7
 + (UIColor *)li_mainForeground{
-    return UIColorFromRGB(0xFFF8E6);
+    static UIColor *color = nil;
+    if (!color) color = UIColorFromRGB(0xFFF8E6);
+    return color;
 }
 
 + (UIColor *)li_mainForegroundDark{
-    return UIColorFromRGB(0xD27258);
+    static UIColor *color = nil;
+    if (!color) color = UIColorFromRGB(0xD27258);
+    return color;
 }
 //+ (UIColor *)li_mainForegroundYellow{
 //    return UIColorFromRGB(0xF0F0E7);
 //}
 + (UIColor *)li_unreadBackground{
-    return UIColorFromRGB(0xe74c3c);
+    static UIColor *color = nil;
+    if (!color) color = UIColorFromRGB(0xe74c3c);
+    return color;
 }
 + (UIColor *)li_facebookBlue{
-    return UIColorFromRGB(0x3b5998);
+    static UIColor *color = nil;
+    if (!color) color = UIColorFromRGB(0x3b5998);
+    return color;
 }
 + (UIColor *)li_twitterBlue{
-    return UIColorFromRGB(0x55acee);
+    static UIColor *color = nil;
+    if (!color) color = UIColorFromRGB(0x55acee);
+    return color;
 }
 //+ (UIColor *)li_mainBackgroundGradientWithFrame:(CGRect)frame{
 //    return GradientColor(UIGradientStyleTopToBottom, frame, (@[[self li_mainBackground],[self li_mainBackgroundDark]]));
@@ -66,24 +78,34 @@
 //+ (UIColor *)lif_featureCoverGradientWithFrame:(CGRect)frame{
 //    return GradientColor(UIGradientStyleTopToBottom, frame, (@[[self li_mainBackgroundDark], [self li_mainBackground]]));
 //}
-- (UIColor *)lighterColor
+- (UIColor *)li_lighterColor
 {
     CGFloat h, s, b, a;
     if ([self getHue:&h saturation:&s brightness:&b alpha:&a])
         return [UIColor colorWithHue:h
                           saturation:s
-                          brightness:MIN(b * 1.3, 1.0)
+                          brightness:MIN(b * 1.2, 1.0)
                                alpha:a];
     return nil;
 }
 
-- (UIColor *)darkerColor
+- (UIColor *)li_darkerColor
 {
     CGFloat h, s, b, a;
     if ([self getHue:&h saturation:&s brightness:&b alpha:&a])
         return [UIColor colorWithHue:h
                           saturation:s
-                          brightness:b * 0.75
+                          brightness:b * 0.8
+                               alpha:a];
+    return nil;
+}
+- (UIColor *)li_colorWithAdjustedBrightness:(CGFloat) factor
+{
+    CGFloat h, s, b, a;
+    if ([self getHue:&h saturation:&s brightness:&b alpha:&a])
+        return [UIColor colorWithHue:h
+                          saturation:s
+                          brightness:b * factor
                                alpha:a];
     return nil;
 }

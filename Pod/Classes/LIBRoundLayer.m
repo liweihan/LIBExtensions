@@ -12,6 +12,8 @@
 -(BOOL)drawsAsynchronously{
     return YES;
 }
+
+
 +(instancetype) layerWithBounds:(CGRect) maskBounds
                     roundBounds:(CGRect) roundBounds
                           point:(CGPoint) point{
@@ -44,7 +46,7 @@
                     shadowColor:(CGColorRef)shadowColor
                          offset:(CGSize)offset
                      blurRadius:(CGFloat)blurRadius {
-    
+
     CGContextSaveGState(context);
     CGContextAddPath(context, path);
     CGContextClip(context);

@@ -39,4 +39,17 @@
 }
 
 
+- (void)li_addChildController:(UIViewController *) childController{
+
+    [self addChildViewController:childController];
+    [self didMoveToParentViewController:self];
+}
+- (void)li_removeFromParentViewController{
+    
+    [self willMoveToParentViewController:nil];
+    [self removeFromParentViewController];
+}
+- (BOOL)li_isVisible{
+    return [self isViewLoaded] && self.view.window;
+}
 @end

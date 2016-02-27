@@ -26,7 +26,7 @@
 - (void)setupImageWithURL:(NSString *)url{
     self.contentMode = UIViewContentModeScaleAspectFill;
     self.clipsToBounds = YES;
-    [self li_setImageWithURL:url];
+    [self li_setImageWithURL: [NSURL URLWithString:url]];
 }
 
 #pragma mark - Private methods

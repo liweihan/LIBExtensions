@@ -28,6 +28,11 @@ Pod::Spec.new do |s|
   }
   s.dependency 'PureLayout'
   s.dependency 'SDWebImage'
+  s.dependency 'PromiseKit', '~> 1.5'
+  s.dependency "ReflectableEnum"
+  s.dependency 'POP+MCAnimate'
+  s.dependency 'pop'
+  s.public_header_files = 'Pod/Classes/**/*.h'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

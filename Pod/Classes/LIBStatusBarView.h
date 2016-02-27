@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LIBStatusBarView : UIView
-+ (UIView *)view;
+
 @end

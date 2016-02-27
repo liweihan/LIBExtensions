@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface  UIColor(LIBExtension)
-- (UIColor *)lighterColor;
-- (UIColor *)darkerColor;
+- (UIColor *)li_lighterColor;
+- (UIColor *)li_darkerColor;
 
 + (UIColor *)li_mainBackgroundDark;
 + (UIColor *)li_mainBackground;
@@ -22,7 +22,7 @@
 + (UIColor *)li_twitterBlue;
 //+ (UIColor *)li_mainBackgroundGradientWithFrame:(CGRect)frame;
 //+ (UIColor *)lif_featureCoverGradientWithFrame:(CGRect)frame;
+- (UIColor *)li_colorWithAdjustedBrightness:(CGFloat) factor;
 
-+ (UIColor *)li_gradient:(double)percent top:(double)topX bottom:(double)bottomX init:(UIColor*)init goal:(UIColor*)goal;
 
 @end

@@ -24,5 +24,9 @@
     self.state = UIGestureRecognizerStateFailed;
 }
 
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    self.state = UIGestureRecognizerStateCancelled;
 
+}
 @end
